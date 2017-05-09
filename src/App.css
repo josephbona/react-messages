@@ -396,8 +396,10 @@ body {
   box-sizing: border-box; }
 
 .container {
-  max-width: 960px;
-  margin: auto; }
+  max-width: 1140px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .message {
   position: relative;
