@@ -27,4 +27,8 @@ const formatDate = (date) => {
   return `${days[d.getDay()]} ${months[d.getMonth()]} ${d.getDate()} ${d.getFullYear()} ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`
 }
 
-export default Message;
+export {
+  Message,
+  fullName,
+  formatDate
+};

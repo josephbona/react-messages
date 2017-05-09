@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import Message from './message';
+import { Message } from './message';
 import './messages.css';
 
 export default class Messages extends React.Component {
