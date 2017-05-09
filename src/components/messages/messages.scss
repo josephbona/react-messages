@@ -1,0 +1,31 @@
+@import './shared/mixins.scss';
+
+.message {
+  @include clearfix();
+  position: relative;
+  padding-left: 5em;
+  &--pic {
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }  
+  p {
+    margin-bottom: 0.5em;
+    &:first-child {
+      font-size: 1.25em;
+      margin-top: 0;
+    }
+    &:last-child {
+      font-size: .85em;
+      color: #CCC;
+    }
+  }
+  &+ .message {
+    margin-top: 2em;
+  }
+}
+.text-capitalize {
+  text-transform: capitalize;
+}

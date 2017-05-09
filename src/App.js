@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
 
 // Components
-import Messages from './components/messages';
+import Messages from './components/messages/messages';
 const Home = () => (
   <div>
     <h1>Home</h1>
